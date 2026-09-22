@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<title>CFS — Built Different</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+</head>
+
+<body>
+
+
+<nav class="nav">
+
+<a class="logo" href="index.html">
+<span class="logo-mark"></span>
+CFS
+</a>
+
+<div class="nav-links">
+
+<a class="active" href="index.html">Home</a>
+<a href="training.html">Training</a>
+<a href="results.html">Results</a>
+<a href="facility.html">Facility</a>
+<a href="membership.html">Membership</a>
+
+</div>
+
+<a class="nav-cta magnetic" href="membership.html">
+Start Training →
+</a>
+
+<button class="menu">☰</button>
+
+</nav>
+
+
+<section class="hero">
+
+<div class="hero-bg">
+
+<img
+src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=2200&q=90"
+alt="Gym">
+
+<div class="hero-overlay"></div>
+<div class="hero-grid"></div>
+
+</div>
+
+<canvas id="hero3d"></canvas>
+
+<div class="floating-orb"></div>
+
+
+<div class="hero-content">
+
+<div class="hero-kicker">
+PERFORMANCE FITNESS · CFS
+</div>
+
+<h1>
+BUILT
+<br>
+<span class="accent">DIFFERENT.</span>
+<br>
+TRAIN
+<br>
+HARDER.
+</h1>
+
+<p class="hero-copy">
+A serious training environment built for people
+who want more from themselves. Strength,
+conditioning, performance and consistency.
+</p>
+
+<div class="hero-buttons">
+
+<a href="membership.html"
+class="btn btn-primary magnetic">
+Start Training →
+</a>
+
+<a href="training.html"
+class="btn btn-outline">
+Explore Training
+</a>
+
+</div>
+
+<div class="hero-stats">
+
+<div class="stat">
+<strong>500+</strong>
+<span>Sessions</span>
+</div>
+
+<div class="stat">
+<strong>7+</strong>
+<span>Training Zones</span>
+</div>
+
+<div class="stat">
+<strong>24/7</strong>
+<span>Mindset</span>
+</div>
+
+<div class="stat">
+<strong>100%</strong>
+<span>Commitment</span>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<div class="image-strip">
+
+<div class="marquee">
+
+<img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=700&q=80">
+
+<img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=700&q=80">
+
+<img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=700&q=80">
+
+<img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=700&q=80">
+
+<img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=700&q=80">
+
+</div>
+
+</div>
+
+
+<section class="section">
+
+<div class="container">
+
+<div class="section-head reveal">
+
+<div>
+
+<div class="kicker">
+WHAT WE DO
+</div>
+
+<h2 class="title">
+TRAIN
+<br>
+WITH <span>PURPOSE.</span>
+</h2>
+
+</div>
+
+<p class="section-intro">
+Everything at CFS has one goal:
+help you become stronger, fitter and
+more capable.
+</p>
+
+</div>
+
+
+<div class="card-grid">
+
+<div class="glass-card reveal">
+
+<div class="card-number">01</div>
+
+<div class="card-icon">◆</div>
+
+<h3>Strength</h3>
+
+<p>
+Progressive resistance training designed
+to build real strength.
+</p>
+
+<div class="card-line"></div>
+
+</div>
+
+
+<div class="glass-card reveal">
+
+<div class="card-number">02</div>
+
+<div class="card-icon">✦</div>
+
+<h3>Conditioning</h3>
+
+<p>
+High-intensity sessions designed to
+increase your work capacity.
+</p>
+
+<div class="card-line"></div>
+
+</div>
+
+
+<div class="glass-card reveal">
+
+<div class="card-number">03</div>
+
+<div class="card-icon">↗</div>
+
+<h3>Personal Training</h3>
+
+<p>
+One-to-one coaching built around
+your individual goals.
+</p>
+
+<div class="card-line"></div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="section" style="background:#0b0b0b;">
+
+<div class="container">
+
+<div class="reveal">
+
+<div class="kicker">Inside CFS</div>
+
+<h2 class="title">
+THE
+<span>FLOOR.</span>
+</h2>
+
+</div>
+
+
+<div class="gallery-grid">
+
+<div class="gallery-item large reveal">
+
+<img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=90">
+
+<div class="gallery-overlay">
+<span>Strength Floor</span>
+</div>
+
+</div>
+
+
+<div class="gallery-item reveal">
+
+<img src="https://images.unsplash.com/photo-1579758629938-03607ccdbaba?auto=format&fit=crop&w=900&q=85">
+
+<div class="gallery-overlay">
+<span>Performance</span>
+</div>
+
+</div>
+
+
+<div class="gallery-item reveal">
+
+<img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=900&q=85">
+
+<div class="gallery-overlay">
+<span>Conditioning</span>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="section">
+
+<div class="container">
+
+<div class="reveal">
+
+<div class="kicker">
+THE DIFFERENCE
+</div>
+
+<h2 class="title">
+NO
+SHORTCUTS.
+<br>
+<span>JUST WORK.</span>
+</h2>
+
+</div>
+
+
+<div class="result-grid">
+
+<div class="result-card reveal">
+
+<div class="result-image">
+
+<img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=1000&q=90">
+
+<div class="result-tag">STRENGTH</div>
+
+</div>
+
+<div class="result-body">
+
+<h3>Build Power</h3>
+
+<p>
+Train progressively and become
+stronger session after session.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="result-card reveal">
+
+<div class="result-image">
+
+<img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=1000&q=90">
+
+<div class="result-tag">CONDITIONING</div>
+
+</div>
+
+<div class="result-body">
+
+<h3>Push Limits</h3>
+
+<p>
+Test your engine and develop
+serious work capacity.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="result-card reveal">
+
+<div class="result-image">
+
+<img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1000&q=90">
+
+<div class="result-tag">PERFORMANCE</div>
+
+</div>
+
+<div class="result-body">
+
+<h3>Move Better</h3>
+
+<p>
+Build athletic movement and
+confidence that carries outside.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="cta">
+
+<div class="cta-bg">
+
+<img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=2200&q=90">
+
+<div class="cta-overlay"></div>
+
+</div>
+
+<div class="container cta-content reveal">
+
+<div class="kicker">
+YOUR NEXT SESSION
+</div>
+
+<h2>
+STOP WAITING.
+<br>
+<span>START TRAINING.</span>
+</h2>
+
+<p>
+Ready to see what you're capable of?
+Take the first step.
+</p>
+
+<a href="membership.html"
+class="btn btn-primary magnetic">
+Start Training →
+</a>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<div class="container">
+
+<div class="footer-grid">
+
+<div>
+
+<div class="footer-logo">CFS</div>
+
+<p>
+Performance training for people
+who refuse to settle.
+</p>
+
+</div>
+
+
+<div>
+
+<h4>Explore</h4>
+
+<a href="training.html">Training</a>
+<a href="results.html">Results</a>
+<a href="facility.html">Facility</a>
+<a href="membership.html">Membership</a>
+
+</div>
+
+
+<div>
+
+<h4>Connect</h4>
+
+<a href="#">Instagram</a>
+<a href="#">WhatsApp</a>
+<a href="#">Call CFS</a>
+
+</div>
+
+</div>
+
+
+<div class="footer-bottom">
+
+<span>© 2026 CFS Gym</span>
+
+<span>BUILT DIFFERENT.</span>
+
+</div>
+
+</div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+  </html>
